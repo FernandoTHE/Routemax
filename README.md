@@ -5,3 +5,9 @@ veicular como alternativa viável para a redução de custos. Assim, os objetivo
 aporte teórico provém de Novaes (2007), Cunha (2000), Ballou (1993), Melo (2000), entre outros. O estudo é descritivo, qualitativo e utiliza a pesquisa bibliográfica como procedimento técnico de pesquisa. O método de abordagem é dedutivo e o método de procedimento é monográfico. Constatou-se que a utilização de roteirizadores para auxílio em empresas logísticas realiza a redução dos custos logísticos, porém eleva a qualidade no nível de serviço prestado.
 
 Palavras-chave: Roteirização. Sistemas roteirizadores de veículos. Redução de custos.
+
+![preload](https://user-images.githubusercontent.com/32521805/99852268-6b7a5980-2b5f-11eb-804c-67679205fa66.png)
+
+![tela1](https://user-images.githubusercontent.com/32521805/99852270-6c12f000-2b5f-11eb-9bb3-39268b27cf09.png)
+
+![tela2](https://user-images.githubusercontent.com/32521805/99852271-6cab8680-2b5f-11eb-8db1-bc751b4307e0.png)
