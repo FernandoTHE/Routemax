@@ -18,4 +18,5 @@ técnico de pesquisa. O método de abordagem é dedutivo e o método de procedim
 monográfico. Constatou-se que a utilização de roteirizadores para auxílio em empresas
 logísticas realiza a redução dos custos logísticos, porém eleva a qualidade no nível de serviço
 prestado.
+
 Palavras-chave: Roteirização. Sistemas roteirizadores de veículos. Redução de custos.
