@@ -1,13 +1,10 @@
-# Routemax 
-A competitividade entre empresas prestadoras de serviços é cada vez mais acirrada,
-gestores buscam obter soluções que propiciam operações em supremacia, com objetivo agregar valor aos serviços prestados e assegurar a alta qualidade do nível de serviço, sendo que ao mesmo tempo evitar o desperdício de recursos é uma preocupação constante. Como forma de mitigar esses custos operacionais, é cada vez mais comum a aplicação de ferramentas tecnológicas para controlar, auditar e a partir de dos dados coletados, gerar informação que pode ser utilizada na tomada de decisões em situações de grande importância de âmbito gerencial. Esta pesquisa tem como objetivo geral propor o uso de softwares de roteirização
+# Routemax - a menor distância para o seu destino.
+<b>_Projeto de um app de roteirização para conclusão do curso de Sistemas de Informação 2020.2, onde a partir da entrega do artigo, iniciamos a desenvolvimento do app, que funcionaram em favor do motorista que recebera a sua rota atráves da gerência que incluirá as rotas pré-determinadas para as entregas, a partir dai o motorista seguirá as rotas assim pré determinadas a para fechamento e conclusão da entrega, terá uma autẽnticação por fotos ou assinatura digital para confirmação da entrega._ </b>
+__________________________________________________________________________________
+  A competitividade entre empresas prestadoras de serviços é cada vez mais acirrada, gestores buscam obter soluções que propiciam operações em supremacia, com objetivo agregar valor aos serviços prestados e assegurar a alta qualidade do nível de serviço, sendo que ao mesmo tempo evitar o desperdício de recursos é uma preocupação constante. Como forma de mitigar esses custos operacionais, é cada vez mais comum a aplicação de ferramentas tecnológicas para controlar, auditar e a partir de dos dados coletados, gerar informação que pode ser utilizada na tomada de decisões em situações de grande importância de âmbito gerencial. Esta pesquisa tem como objetivo geral propor o uso de softwares de roteirização
 veicular como alternativa viável para a redução de custos. Assim, os objetivos específicos são: caracterizar o problema de roteirização, demonstrar a necessidade do uso de sistemas roteirizadores e analisar superficialmente algumas opções de softwares de roteirização disponíveis no mercado. A problemática que norteia este estudo encontra-se voltada para a otimização do setor de transporte empresarial, de modo a obter redução de custos logísticos. O
 aporte teórico provém de Novaes (2007), Cunha (2000), Ballou (1993), Melo (2000), entre outros. O estudo é descritivo, qualitativo e utiliza a pesquisa bibliográfica como procedimento técnico de pesquisa. O método de abordagem é dedutivo e o método de procedimento é monográfico. Constatou-se que a utilização de roteirizadores para auxílio em empresas logísticas realiza a redução dos custos logísticos, porém eleva a qualidade no nível de serviço prestado.
 
 Palavras-chave: Roteirização. Sistemas roteirizadores de veículos. Redução de custos.
 
-![preload](https://user-images.githubusercontent.com/32521805/99852268-6b7a5980-2b5f-11eb-804c-67679205fa66.png)
-
-![tela1](https://user-images.githubusercontent.com/32521805/99852270-6c12f000-2b5f-11eb-9bb3-39268b27cf09.png)
-
-![tela2](https://user-images.githubusercontent.com/32521805/99852271-6cab8680-2b5f-11eb-8db1-bc751b4307e0.png)
+![tela1](https://user-images.githubusercontent.com/32521805/99852270-6c12f000-2b5f-11eb-9bb3-39268b27cf09.png) ![tela2](https://user-images.githubusercontent.com/32521805/99852271-6cab8680-2b5f-11eb-8db1-bc751b4307e0.png)
