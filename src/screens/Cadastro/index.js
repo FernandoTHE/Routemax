@@ -11,6 +11,7 @@ import {
 } from './style';
 import Perfillogo from '../../assents/perfil.svg';
 import LoginInput from '../../components/LoginInput';
+import {Alert} from 'react-native';
 
 const Login = () => {
   const [nomeField, setNomeField] = useState('');
@@ -25,7 +26,21 @@ const Login = () => {
     });
   };
   //
-  const handleloginClick = () => {};
+  const handleloginClick = () => {
+    Alert.alert(
+      'Usuário Cadastrado',
+      'Teste',
+      [
+        {
+          text: 'Cancelar',
+          onPress: () => console.log('Cancel Pressed'),
+          style: 'cancel',
+        },
+        {text: 'OK', onPress: () => console.log('OK Pressed')},
+      ],
+      {cancelable: false},
+    );
+  };
 
   return (
     <Container>
@@ -53,7 +68,7 @@ const Login = () => {
         />
         {/* Botão Cadastro */}
         <CustomButtom onPress={handleloginClick}>
-          <CustomButtomText>Cadastre</CustomButtomText>
+          <CustomButtomText>Cadastrar</CustomButtomText>
         </CustomButtom>
       </InputArea>
 
