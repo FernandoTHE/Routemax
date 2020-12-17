@@ -1,5 +1,4 @@
 import React, {useState, useEffect} from 'react';
-import {useNavigation} from '@react-navigation/native';
 import {
   View,
   Text,
@@ -32,7 +31,6 @@ export default () => {
   const [destinationText, setDestinationText] = useState('');
   //set localização
   const [coords, setCoods] = useState(null);
-  //pega localização
 
   //requisição de permissão
   useEffect(async () => {
@@ -138,7 +136,7 @@ export default () => {
   return (
     <Container>
       <MapView
-        // ref={(map) => (this.mapView = map)}
+        ref={(map) => (this.mapView = map)}
         style={styles.map}
         region={{
           latitude: (origin.latitude + destination.latitude) / 2,
@@ -188,7 +186,7 @@ export default () => {
         />
 
         <TouchableOpacity style={styles.button} onPress={() => handleButton()}>
-          <Text style={styles.buttonText}>Buscar rota</Text>
+          <Text style={styles.buttonText}>Buscar Rota</Text>
         </TouchableOpacity>
       </View>
     </Container>
@@ -217,23 +215,33 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
     borderWidth: 1,
-    borderColor: '#000',
     borderRadius: 7,
     marginBottom: 15,
     marginHorizontal: 20,
-  },
+    //sombra bot
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 9,
+    },
+    shadowOpacity: 0.48,
+    shadowRadius: 11.95,
 
+    elevation: 18,
+  },
+  //escrita
   buttonText: {
     color: '#000',
     fontWeight: 'bold',
   },
-
+  //area view text
   inputContainer: {
     height: '100%',
     width: '100%',
     maxHeight: 200,
   },
 
+  //area do text
   input: {
     width: width - 40,
     maxHeight: 200,
@@ -241,6 +249,15 @@ const styles = StyleSheet.create({
     marginBottom: 15,
     marginHorizontal: 20,
     borderRadius: 7,
-    borderColor: '#ff0000',
+    //sombra na caixa
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 9,
+    },
+    shadowOpacity: 0.48,
+    shadowRadius: 11.95,
+
+    elevation: 18,
   },
 });

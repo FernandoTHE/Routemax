@@ -9,7 +9,7 @@ import ValidaIcon from '../assents/validação.svg';
 
 const TabArea = styled.View`
   height: 60px;
-  background-color: #268596;
+  background-color: #fff;
   flex-direction: row;
   /* width: 100%; */
 `;
@@ -41,7 +41,7 @@ export default ({state, navigation}) => {
           styled={{opacity: state.index == 0 ? 1 : 0.5}}
           width={24}
           heigth={24}
-          fill="#FFFFFF"
+          fill="#000"
         />
       </TabItem>
       <TabItem onPress={() => goTo('Procurar')}>
@@ -49,7 +49,7 @@ export default ({state, navigation}) => {
           styled={{opacity: state.index == 0 ? 2 : 0.5}}
           width={24}
           heigth={24}
-          fill="#FFFFFF"
+          fill="#000"
         />
       </TabItem>
       <TabItem onPress={() => goTo('Validação')}>
@@ -57,7 +57,7 @@ export default ({state, navigation}) => {
           styled={{opacity: state.index == 0 ? 3 : 0.5}}
           width={24}
           heigth={24}
-          fill="#FFFFFF"
+          fill="#000"
         />
       </TabItem>
       <TabItem onPress={() => goTo('Perfil')}>
@@ -65,7 +65,7 @@ export default ({state, navigation}) => {
           styled={{opacity: state.index == 0 ? 4 : 0.5}}
           width={24}
           heigth={24}
-          fill="#FFFFFF"
+          fill="#000"
         />
       </TabItem>
     </TabArea>
