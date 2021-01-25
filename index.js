@@ -1,9 +1,21 @@
-/**
- * @format
- */
-import 'react-native-gesture-handler'; //movimentação
-import {AppRegistry} from 'react-native';
-import App from './App';
-import {name as appName} from './app.json';
+import {GooglePlacesAutocomplete} from '@react-navigation/native';
 
-AppRegistry.registerComponent(appName, () => App);
+const GooglePlacesInput = () => {
+  return (
+    <GooglePlacesAutocomplete
+      placeholder="Search"
+      onPress={(data, details = null) => {
+        // 'details' is provided when fetchDetails = true
+        console.log(data, details);
+      }}
+      query={{
+        key: 'AIzaSyC4Jq2Bkuf0c4BfSfZ5tAiNhLdSNYXaPUQ',
+        language: 'en',
+      }}
+      currentLocation={true}
+      currentLocationLabel="Current location"
+    />
+  );
+};
+
+export default GooglePlacesInput;
