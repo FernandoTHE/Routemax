@@ -36,6 +36,61 @@ export default class ProfileView extends Component {
         <View style={styles.body}>
           <View style={styles.bodyContent}>
             <Text style={styles.description}>Descrição de Rotas</Text>
+            {/* detalhes da rota */}
+            <View style={styles.profileDetail2}>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Saida</Text>
+                <Text style={styles.count}>08:31</Text>
+              </View>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Chegada</Text>
+                <Text style={styles.count}>09:02</Text>
+              </View>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Motorista</Text>
+                <Text style={styles.count}>Raimundo</Text>
+              </View>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Veiculo</Text>
+                <Text style={styles.count}>UFC-0000</Text>
+              </View>
+            </View>
+            <View style={styles.profileDetail3}>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Saida</Text>
+                <Text style={styles.count}>08:31</Text>
+              </View>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Chegada</Text>
+                <Text style={styles.count}>09:02</Text>
+              </View>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Motorista</Text>
+                <Text style={styles.count}>Raimundo</Text>
+              </View>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Veiculo</Text>
+                <Text style={styles.count}>UFC-0000</Text>
+              </View>
+            </View>
+            <View style={styles.profileDetail4}>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Saida</Text>
+                <Text style={styles.count}>08:31</Text>
+              </View>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Chegada</Text>
+                <Text style={styles.count}>09:02</Text>
+              </View>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Motorista</Text>
+                <Text style={styles.count}>Raimundo</Text>
+              </View>
+              <View style={styles.detailContent}>
+                <Text style={styles.title}>Veiculo</Text>
+                <Text style={styles.count}>UFC-0000</Text>
+              </View>
+            </View>
           </View>
         </View>
       </View>
@@ -45,7 +100,7 @@ export default class ProfileView extends Component {
 
 const styles = StyleSheet.create({
   header: {
-    backgroundColor: '#00CED1',
+    backgroundColor: '#268596',
   },
   headerContent: {
     padding: 60,
@@ -72,7 +127,34 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     position: 'absolute',
     backgroundColor: '#ffffff',
-    borderRadius: 20,
+    borderRadius: 10,
+  },
+  profileDetail2: {
+    alignSelf: 'center',
+    marginTop: 50,
+    alignItems: 'center',
+    flexDirection: 'row',
+    position: 'absolute',
+    backgroundColor: '#ffffff',
+    borderRadius: 10,
+  },
+  profileDetail3: {
+    alignSelf: 'center',
+    marginTop: 120,
+    alignItems: 'center',
+    flexDirection: 'row',
+    position: 'absolute',
+    backgroundColor: '#ffffff',
+    borderRadius: 10,
+  },
+  profileDetail4: {
+    alignSelf: 'center',
+    marginTop: 190,
+    alignItems: 'center',
+    flexDirection: 'row',
+    position: 'absolute',
+    backgroundColor: '#ffffff',
+    borderRadius: 10,
   },
   detailContent: {
     margin: 10,
@@ -80,6 +162,7 @@ const styles = StyleSheet.create({
   },
   title: {
     fontSize: 18,
+    fontWeight: 'bold',
     color: '#00CED1',
   },
   count: {
@@ -88,7 +171,7 @@ const styles = StyleSheet.create({
   bodyContent: {
     flex: 1,
     alignItems: 'center',
-    padding: 30,
+    padding: 20,
     marginTop: 40,
   },
   textInfo: {
@@ -108,9 +191,10 @@ const styles = StyleSheet.create({
     backgroundColor: '#00CED1',
   },
   description: {
-    fontSize: 20,
+    fontSize: 19,
+    fontWeight: 'bold',
     color: '#00CED1',
-    marginTop: 5,
+    marginTop: -10,
     textAlign: 'center',
   },
 });
