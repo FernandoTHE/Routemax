@@ -1,7 +1,5 @@
 
-<strong> Projeto de Conclusão de Curso </strong> <b>
- , ainda está sendo aperfeiçoado 
+<strong> Projeto de Conclusão do Curso </strong> <b>
 
-
-https://user-images.githubusercontent.com/32521805/136679400-71b1e305-9f9b-426a-8eb2-1faafc4687a7.mp4
+https://user-images.githubusercontent.com/32521805/136679655-e48a7bdf-5310-4628-b99c-050cbe1ca140.mp4
 
